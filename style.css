@@ -1,8 +1,6 @@
-footer{
-    height: 100%;
-}
+
 #particles-js{
-  height:100%;
+  height:65vh;
     color:1a1a1d;
     background: #0b0c10;
 }
