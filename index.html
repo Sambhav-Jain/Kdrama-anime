@@ -24,7 +24,7 @@
             <div class="card">
                 <div class="card-header" id="headingTwo">
                     <button class="btn btn-link btn-block text-left collapsed text-warning text-center bg-secondary text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h1 class = "mb-0"> Animes </h1>
+                        <h1 class="mb-0"> Animes </h1>
                     </button>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -152,7 +152,7 @@
                     <div class="card-body container-fluid bg-warning">
                         <div class="col text-info bg-light shadow-lg">
                             <ol>
-                                <li class = "text-primary">My Love From the Star</li>
+                                <li class="text-primary">My Love From the Star</li>
                                 <li>The Heir's</li>
                                 <li>The K2</li>
                                 <li>Good Doctor</li>
@@ -163,18 +163,18 @@
                                 <li>Descendants of the Sun</li>
                                 <li>The Gentlemen of Wolgyesu Tailor Shop</li>
                                 <li>Whisper</li>
-                                <li class = "text-danger">Black Knight</li>
-                                <li class = "text-danger">Missing 9</li>
+                                <li class="text-danger">Black Knight</li>
+                                <li class="text-danger">Missing 9</li>
                                 <li>Goblin</li>
                                 <li>Whats wrong with Secretary Kim</li>
                                 <li>Healer</li>
-                                <li class = "text-primary">My Girlfriend is a gumiho</li>
+                                <li class="text-primary">My Girlfriend is a gumiho</li>
                                 <li>Secret Garden</li>
                                 <li>Strong Girl Bong-Soon</li>
                                 <li>Kill Me Heal Me</li>
                                 <li>City hunter</li>
                                 <li>Doctor Stranger</li>
-                                <li class = "text-primary">Crash Landing on you</li>
+                                <li class="text-primary">Crash Landing on you</li>
                                 <li>Fight for my Way</li>
                                 <li>My Mister</li>
                                 <li>Lawless Lawyer</li>
@@ -183,15 +183,15 @@
                                 <li>My Secret Terius</li>
                                 <li>Because this is my first life</li>
                                 <li>Master's Sun</li>
-                                <li class = "text-primary">Extraordinary You</li>
+                                <li class="text-primary">Extraordinary You</li>
                                 <li>Coffee Prince</li>
                                 <li>I'm not a robot</li>
                                 <li>Oh My Venus</li>
                                 <li>Oh My Ghost</li>
                                 <li>Itaewon Class</li>
-                                <li class = "text-primary">Memories of the Alhambra</li>
-                                <li class = "text-primary">The King : Eternal Monarch</li>
-                                <li class = "text-primary">Signal</li>
+                                <li class="text-primary">Memories of the Alhambra</li>
+                                <li class="text-primary">The King : Eternal Monarch</li>
+                                <li class="text-primary">Signal</li>
                             </ol>
                         </div>
                     </div>
@@ -200,14 +200,30 @@
         </div>
     </main>
 
+    <video id = "vid" loop>
+        <source src="koto.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!--
+    <video width = "auto" height = "auto" autoplay>
+        <source src = "koto.mp4" type = "video/mp4">
+        Your browser doesn't support video format.
+    </video>
     <div id="particles-js"></div>
-
-    <script src="particles.js"></script>
+-->
+<script>
+   setTimeout(function(){
+    document.getElementById("vid").play();
+},5000); 
+//    document.getElementById('vid').play();
+</script>
+<!--    <script src="particles.js"></script>-->
     <script src="app.js"></script>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

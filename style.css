@@ -1,6 +1,10 @@
 
-#particles-js{
-  height:65vh;
-    color:1a1a1d;
-    background: #0b0c10;
-}
+        #vid{
+            object-fit: cover;
+            height: 100vh;
+            width:100vw;
+            position : fixed;
+            top:0;
+            padding=0;
+            z-index: -999;
+            }
