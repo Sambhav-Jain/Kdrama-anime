@@ -17,6 +17,9 @@
         font-size: 2.5rem;
         font-weight: 700;
     }
+    a{
+        text-decoration: none;
+    }
     @media only screen and (max-width: 600px) {
     .heading{
         font-size: 1.5rem;
@@ -304,18 +307,48 @@
                             <li class = "manga-list-item">Bleach</li>
                             <li class = "manga-list-item">Ushio and Tora</li>
                             <li class = "manga-list-item">Toriko</li>
-                            <li class = "manga-list-item">One Piece &emsp;<span class="badge badge-success">Weekly (Monday)</span></li>
-                            <li class = "manga-list-item">Dr. Stone  &emsp;<span class="badge badge-success">Weekly (Monday)</span></li>                                                     
-                            <li class = "manga-list-item">Jujutsu Kaisen &emsp;<span class="badge badge-success">Weekly (Monday)</span></li>
-                            <li class = "manga-list-item">Black Clover &emsp;<span class="badge badge-success">Weekly (Monday)</span></li>
-                            <li class = "manga-list-item">Sakamoto Days &emsp;<span class="badge badge-success">Weekly (Monday)</span></li>
-                            <li class = "manga-list-item">Spy X Family &emsp;<span class="badge badge-warning">Biweekly (Monday)</span></li>
-                            <li class = "manga-list-item">That Time I Got Reincarnated as a Slime &emsp;<span class="badge badge-danger">Monthly</span></li>
-                            <li class = "manga-list-item">Mushoku Tensei: Isekai Ittara Honki Dasu &emsp;<span class="badge badge-danger">Monthly</span></li>
-                            <li class = "manga-list-item">Kenja No Mago &emsp;<span class="badge badge-danger">Monthly</span></li>
-                            <li class = "manga-list-item">World Trigger &emsp;<span class="badge badge-danger">Monthly (in 1<sup>st</sup> week)</span></li>
-                            <li class = "manga-list-item">Twin Star Exorcists &emsp;<span class="badge badge-danger">Monthly (in 1<sup>st</sup> week)</span></li>
-                            <li class = "manga-list-item">Boruto &emsp;<span class="badge badge-danger">Monthly (on 20<sup>th</sup>)</span></li>                            
+                            <!-- These mangas are currently running and some of them are available to read for free at viz manga official website but only latest chapters so I am adding the links-->
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/one-piece?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">One Piece </a> &emsp;
+                                <span class="badge badge-success">Weekly (Monday)</span>
+                            </li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/dr-stone?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Dr. Stone</a>&emsp;
+                                <span class="badge badge-success">Weekly (Monday)</span>
+                            </li>                                                     
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/jujutsu-kaisen?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Jujutsu Kaisen</a> &emsp;
+                                <span class="badge badge-success">Weekly (Monday)</span>
+                            </li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/black-clover?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Black Clover</a> &emsp;
+                                <span class="badge badge-success">Weekly (Monday)</span>
+                            </li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/sakamoto-days?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Sakamoto Days</a> &emsp;
+                                <span class="badge badge-success">Weekly (Monday)</span>
+                            </li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/spy-x-family?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Spy X Family</a> &emsp;
+                                <span class="badge badge-warning">Biweekly (Monday)</span>
+                            </li>
+
+                            <li class = "manga-list-item">That Time I Got Reincarnated as a Slime&emsp;<span class="badge badge-danger">Monthly</span></li>
+
+                            <li class = "manga-list-item">Mushoku Tensei: Isekai Ittara Honki Dasu</a>&emsp;<span class="badge badge-danger">Monthly</span></li>
+
+                            <li class = "manga-list-item">Kenja No Mago</a> &emsp;<span class="badge badge-danger">Monthly</span></li>
+
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/world-trigger?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">World Trigger</a> &emsp;
+                                <span class="badge badge-danger">Monthly (in 1<sup>st</sup> week)</span>
+                            </li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/twin-star-exorcists?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Twin Star Exorcists</a> &emsp;
+                                <span class="badge badge-danger">Monthly (in 1<sup>st</sup> week)</span></li>
+                            <li class = "manga-list-item text-primary">
+                                <a href = "https://www.viz.com/shonenjump/chapters/boruto?locale=en" target="_blank" data-toggle="tooltip" data-placement="right" title="Read latest chapters at Viz Manga">Boruto</a> &emsp;
+                                <span class="badge badge-danger">Monthly (on 20<sup>th</sup>)</span></li>                            
                        
                         </ol>
                     </div>
@@ -368,7 +401,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
+    <script>
+        $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 </body>
 
 </html>
